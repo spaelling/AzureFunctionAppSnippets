@@ -1,0 +1,10 @@
+2019-01-09T10:47:26.069Z - info:   [21380] *** FOLDER: c:\git\AzureFunctionAppSnippets ***
+2019-01-09T10:47:26.070Z - info:   [21380] AzureReposVSCode/1.144.1 (VSCode 1.30.1; Windows_NT 10.0.17134; Node 8.9.3)
+2019-01-09T10:47:26.070Z - debug:  [21380] Looking for an External Context at c:\git\AzureFunctionAppSnippets
+2019-01-09T10:47:26.070Z - debug:  [21380] No External Context at c:\git\AzureFunctionAppSnippets
+2019-01-09T10:47:26.074Z - debug:  [21380] Looking for TFVC repository at c:\git\AzureFunctionAppSnippets
+2019-01-09T10:47:26.074Z - debug:  [21380] TFVC Creating Tfvc object with localPath='undefined'
+2019-01-09T10:47:26.075Z - debug:  [21380] Using TFS proxy: 
+2019-01-09T10:47:26.075Z - debug:  [21380] TFVC Retrieved from settings; localPath=''
+2019-01-09T10:47:26.075Z - warn:   [21380] TFVC Couldn't find where the TF command lives on disk.
+2019-01-09T10:47:26.075Z - error:  [21380] The path to the TFVC command line (including filename) was not found in the user settings. Please set this value (tfvc.location) and try again.
