@@ -2,7 +2,7 @@
 $ModulePath must not already contain the modules or this may fail
 #>
 
-$ModulePath = 'D:\home\lib2\PSModules'
+$ModulePath = 'D:\home\lib\PSModules'
 New-Item -ItemType Directory -Path $ModulePath -Force | Out-Null
 
 $NuGet = Get-PackageProvider -Name NuGet -ErrorAction SilentlyContinue
