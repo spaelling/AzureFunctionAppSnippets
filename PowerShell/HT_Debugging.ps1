@@ -25,10 +25,10 @@ function Test-Debug {
     }
 }
 
-# this has no effect
-$DebugPreference = 'Continue'
-
-#Nothing happens
+# Nothing happens, the stream is not visible in function apps
 Test-Debug -Debug
+
+# do not prompt for user interaction
+$DebugPreference = 'Continue'
 # redirect debugstream to success stream (write-output) - will now see the debug stream in the log
-Test-Debug -Debug 5>&1
+Test-Debug 5>&1
